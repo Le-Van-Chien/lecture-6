@@ -1,0 +1,242 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 50px;
+    /* line-height: 50px; */
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.header-right .list-item,.header-left{
+    display: flex;  
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.name-shop{
+    line-height: 50px;
+}
+
+.list-item .item{
+    list-style-type: none;
+    margin-right: 20px;
+    line-height: 50px;
+}
+.my-cart{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 9px 10px 10px 8px;
+    list-style-type: none;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(107, 107, 241);
+}
+
+
+/* content */
+.content{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 50px;
+}
+.content-left{
+    margin-left: 30px;
+    width: 525px;
+}
+.img{
+    width: 525px;
+    height: 270px;
+    background-color: #e2e0e0;
+    text-align: center;
+    line-height: 270px;
+    border: 1px solid #333;
+}
+.list-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.list-img .image{
+    width: 120px;
+    height: 90px;
+    background-color: #e2e0e0;
+    line-height: 90px;
+    text-align: center;
+    border: 1px solid #333;
+}
+.content-right{
+    margin-left: 50px;
+}
+.color,.design{
+    margin-top: 20px;
+}
+.text{
+    width: 500px;
+    margin-top: 20px;
+}
+.color ul,.design ul{
+    display: flex;
+}
+.color ul li,.design ul li{
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    padding: 0px 10px;
+    background-color: none;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.blue:hover{
+    background-color: blue;
+}
+.red:hover{
+    background-color: red;
+}
+.green:hover{
+    background-color: green;
+}
+.Classic:hover,.Mordem:hover{
+    background-color: aqua;
+}
+.information{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.title-color,.infor-text{
+    font-weight: 600;
+}
+.price{
+    font-weight: 300;
+    color: blueviolet;
+}
+.sale{
+    font-weight: 300;
+    color: red;
+}
+.number{
+    margin-top: 20px;
+}
+.number input{
+    width: 75px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 20px;
+    outline: none;
+    border-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.number button{
+    padding: 11px 15px;
+    background-color: white;
+    border-style: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.number button:hover{
+    border:1px solid rgb(248, 90, 143);
+    background-color: rgba(249, 128, 168, 0.5);
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border:1px solid rgb(248, 90, 143);
+    background-color: rgba(249, 128, 168, 0.5);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.comment{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 95%;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+.customer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.user{
+    display: flex;
+}
+.adress{
+    color: #ccc;
+}
+.icon{
+    color: rgb(210, 255, 119);
+}
+.time-comment{
+    padding: 10px;
+    line-height: 20px;
+}
+.list ul{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.list ul .two{
+    list-style-type: none;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.one{
+    list-style-type: none;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    padding: 0px 8px;
+     border: 1px solid #ccc;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ccc;
+}
+
+/* footer */
+.footer{
+    width: 95%;
+    height: 70px;
+    background-color: bisque;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .in4{
+    line-height: 25px;
+    padding-top: 10px;
+    margin-left: 50px;
+   }
+   .icon-footer{
+    margin-right: 10px;
+   }
+   .fa-phone{
+    margin-left: 60px;
+   }

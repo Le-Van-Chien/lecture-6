@@ -1,0 +1,199 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 50px;
+    /* line-height: 50px; */
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.header-right .list-item,.header-left{
+    display: flex;  
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.name-shop{
+    line-height: 50px;
+}
+
+.list-item .item{
+    list-style-type: none;
+    margin-right: 20px;
+    line-height: 50px;
+}
+.my-cart{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 9px 10px 10px 8px;
+    list-style-type: none;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(107, 107, 241);
+}
+.your-information{
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 285px;
+    border: 1px solid #333;
+    
+}
+.infor{
+margin-left: 20px;
+width: 60%;
+height: 100%;
+border-right: 1px solid #333;
+line-height: 45px;
+}
+.infor input{
+width: 490px;
+height: 35px;
+outline: none;
+border-style: none;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.infor label i,.pay p i{
+    color: red;
+}
+.pay{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.payment p{
+    width: 490px;
+    height: 45px;
+    border: 2px solid #ccc;
+    margin-right: 20px;
+    margin-top: 30px;
+    line-height: 45px;
+}
+.payment p input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 14px;
+}
+.payment p  label{
+margin-bottom: 20px;
+}
+.cart{
+    margin-left: 85px;
+    margin-right: 117px;
+    
+}
+.lorem{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #333;
+    justify-content: space-between;
+}
+.product{
+    display: flex;
+}
+.product input{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product .image{
+    width: 100px;
+    height: 90px;
+    background-color: #ccc;
+    line-height: 90px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #333;
+}
+.cart{
+    margin-top: 30px;
+}
+.product .ipsum{
+    margin-top: 20px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.product .ipsum button{
+    padding: 8px 10px;
+    background-color: aqua;
+    border-style: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.remove{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.xoa button{
+    padding: 12px 20px;
+    background-color: rgba(248, 156, 171,0.5);
+    border-style: none;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+.input-number input{
+    width: 70px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.total{
+    font-weight: 600;
+}
+.submit-order{
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 8px 10px;
+    background-color: rgba(198, 139, 252,0.5);
+    border-style: none;
+    border: 1px solid rgb(198,139,252);
+    border-radius: 5px;
+}
+.footer{
+    width: 95%;
+    height: 70px;
+    background-color: bisque;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .in4{
+    line-height: 25px;
+    padding-top: 10px;
+    margin-left: 50px;
+   }
+   .icon-footer{
+    margin-right: 10px;
+   }
+   .fa-phone{
+    margin-left: 60px;
+   }
